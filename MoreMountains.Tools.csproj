@@ -1,0 +1,1711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{005E3997-511C-26B6-FE72-03B07D447BAB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>MoreMountains.Tools</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2022_3_62;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;UNITY_UGP_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;MOREMOUNTAINS_INTERFACE;MOREMOUNTAINS_CORGIENGINE;MOREMOUNTAINS_INVENTORYENGINE;MM_CINEMACHINE3;MM_TEXTMESHPRO;MM_POSTPROCESSING;MM_UI;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2022.3.62f2c1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="D:\vs\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="D:\unity\2022.3.62f2c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="D:\unity\2022.3.62f2c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSaveLoad\MMSaveLoadManagerMethod.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMCurves\Plotter\MMPlotter.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSaveLoad\MMPersistentBase.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_TextureScale.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Springs\MMSpringDepthOfFieldFocusDistance_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMInput\MMAutoInputModule.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Shakers\MMPostProcessingMovingFilter.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_CameraFieldOfView.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMActivation\MMParentingOnStart.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMCamera\MMBillboard.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSaveLoad\MMSaveLoadManagerMethodBinary.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Light.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAI\AIAction.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Core\MMSpringComponentBase.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Rotation.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMTween\MMTweenDefinitions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMMovement\MMPreventPassingThrough2D.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMInspectorButtonBarAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitTransformOrigin.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_ImageFill.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Springs\MMSpringVignetteIntensity.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMColorExtensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Events.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\Tabs\MMDebugMenuDebugTab.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMPhysics\MMRigidbodyCenterOfMass.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMTilemaps\MMTilemapBoolean.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGUI\MMRaycastTarget.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringCameraFieldOfView.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSceneLoading\Scripts\Helpers\MMLoadScene.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_AudioFilterHighPass.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Feedbacks\MMF_MotionBlur_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\NiceVibrations\Feedbacks\MMF_NVContinuous.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMProperty\MMPropertyPicker\MMPropertyPicker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMStateMachine\MMStateMachine.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMActivation\MMDontDestroyOnLoad.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_DebugComment.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_VideoPlayer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\Legacy\MMFeedbacksEnabler.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGUI\MMCursorVisible.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_TimescaleModifier.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Feedbacks\MMF_DepthOfField_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Springs\MMSpringColorGradingContrast.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Shakers\MMColorGradingShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringTMPSoftness.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Feedbacks\MMF_LensDistortion_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_LooperStart.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Shakers\MMBloomShaker_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMInput.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMActivation\MMOnMouse.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringTMPDilate.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMPhysics\MMRigidbodyInterface.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Core\MMSpringVector4.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_MMSoundManagerAllSoundsControl.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMLayermaskExtensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMVision\MMConeOfVision2D.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMLightShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAchievements\Scripts\MMAchievementManager.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_MMSoundManagerSoundData.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\VisualEffectGraph\Feedbacks\MMF_VisualEffect.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGUI\MMOnPointer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAnimation\MMAnimationParameter.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Base\MMF_UIToolkitBoolBase.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMDictionaryExtensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMActivation\MMTriggerAndCollision.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMActivation\MMAutoExecution.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMScene.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Helpers\MMGlobalPostProcessingVolumeAutoBlend_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMProperty\MMPropertyLink\MMPropertyLinkVector4.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Shakers\MMBloomShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\Cinemachine\Shakers\MMCinemachineOrthographicSizeShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMTime.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringImageFillAmount.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMF_Player\MMF_Player.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMUI\MMFaderDirectional.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\MMDebugMenu.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAnimation\MMRagdollerIgnore.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMSoundManager\Events\MMSoundManagerAllSoundsControlEvent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_ScaleSpring.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSaveLoad\MMSaveLoadManagerMethodJson.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Wiggle.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\Cinemachine\Shakers\MMCinemachinePriorityBrainListener.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMMovement\MMAim.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMUtilities\MMTransformRandomizer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\Cinemachine\Shakers\MMCinemachineFieldOfViewShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Springs\MMSpringPaniniProjectionDistance_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_ReferenceHolder.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Feedbacks\MMF_SpringVector2.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_MMSoundManagerSaveLoad.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Core\Components\MMSpringVector4Component.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\NiceVibrations\Feedbacks\MMF_NVControl.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMLoot\MMLootTableGameObjectSO.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMRadioReceiver.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Springs\MMSpringColorGradingSaturation.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Shakers\MMChannelMixerShaker_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMTilemaps\MMTilemapCleaner.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringAudioSourcePitch.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Collider2D.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Core\Components\MMSpringVector2Component.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\Feedbacks\MMF_TMPText.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitStylesheet.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_Playlist.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_AnimationCrossfade.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMActivation\MMConditionalActivation.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\DemoGhost.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Springs\MMSpringColorGradingHueShift.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMUtilities\MMApplicationQuit.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMControls\MMSwipeZone.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Base\MMF_UIToolkit.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_AudioSourceStereoPan.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringTMPFontSize.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_CameraClippingPlanes.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMInstantiation\MMRandomBoundsInstantiator.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSaveLoad\MMSaveLoadManagerMethodBinaryEncrypted.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMParticles\MMVisibleParticle.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMSoundManager\MMSoundManagerTrackVolumeSlider.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMHelpers.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\Events\MMDebugMenuButtonEventListener.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMLookAtShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMParticles\MMRuntimeParticleControl.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMUtilities\MMSceneRestarter.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Shakers\MMBloomShaker_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Feedbacks\MMF_DepthOfField.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_MMSoundManagerTrackFade.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMGUI.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_SetParent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Shakers\MMChromaticAberrationShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMCinemachine\MMGyroParallax\MMGyroParallax.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\MMDebugMenuItems\MMDebugMenuItemSlider.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Springs\MMSpringMotionBlurShutterAngle.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Feedbacks\MMF_SpringVector4.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMSprites\MMLineRendererDriver.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Springs\MMSpringColorGradingTint.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringRectTransformPosition.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringImageColor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_PPMovingFilter.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_LookAt.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringLightIntensity.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMCamera\MMViewportEdgeTeleporter.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMMovement\MMPositionRecorder.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringLightColor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMDebug.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMSequencer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMCameraShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSaveLoad\MMPersistenceDataStructures.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\ObjectPool\MMMiniObjectPooler.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\MMDebugMenuItems\MMDebugMenuItemTitle.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMInformationAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Shakers\MMVignetteShaker_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_TextureOffset.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Shakers\MMFilmGrainShaker_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMUI\MMFaderRound.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_AudioFilterLowPass.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_RadioSignal.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMControls\MMTouchButton.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_CameraOrthographicSize.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Springs\MMSpringVignetteColor_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAchievements\Scripts\MMAchievement.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMObjectPool\MMObjectPool.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMSequence.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMProperty\MMPropertyLink\MMPropertyLinkVector2.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Shakers\MMColorAdjustmentsShaker_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMActivation\MMTimedActivation.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\NiceVibrations\Feedbacks\MMF_Haptics.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMPropertyControllers\TransformController.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSaveLoad\MMPersistenceManager.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMPerformance\MMSpeedTest.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMDropdownAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_ImageTextureScale.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMMovement\MMAutoRotate.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMSMPlaylist\MMSMPlaylistManager.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_SpriteRenderer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMProcedural\MMGridGenerators\MMGridGeneratorFull.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMBoundsExtensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMProcedural\MMGridGenerators\MMGridGeneratorPath.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Shakers\MMWhiteBalanceShaker_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMUtilities\MMLayer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\NiceVibrations\Feedbacks\MMF_NVEmphasis.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_Broadcast.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMArrayExtensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMLoot\MMLootTable.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\MMDebugMenuData.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\Events\MMDebugMenuSliderEvent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMSoundManager\MMSoundManagerSettingsSO.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMWiggle.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMMaths.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Demos\MMObservable\MMObservableDemoObserverAutoSleep.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMGameObjectExtensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Shakers\MMVignetteShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitImageTint.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\UIClasses\MMDebugMenuSwitch.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Feedbacks\MMF_LensDistortion.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringTextureOffset.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMImage.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Material.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMRadioBroadcaster.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Feedbacks\MMF_Vignette_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMPositionShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_ParticlesInstantiation.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringRectTransformSizeDelta.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Springs\MMSpringChromaticAberrationIntensity_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMSoundManager\MMSoundManagerSound.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMPropertyControllers\ShaderController.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Shakers\MMExposureShaker_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGUI\MMUIFollowMouse.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\UIClasses\MMDebugMenuRadioButton.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMEvents\MMEventManager.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMControls\MMTouchRepositionableJoystick.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_RectTransformPivot.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMFloatExtensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\MMDebugMenuItems\MMDebugMenuItemValue.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_ShaderController.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSingletons\MMPersistentSingleton.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringTMPWordSpacing.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Feedbacks\MMF_ChannelMixer_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMUtilities\MMSceneViewIcon.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSaveLoad\MMSaveLoadManagerMethods.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_AudioFilterReverb.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSceneLoading\Scripts\Helpers\MMSceneLoadingImageProgress.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Feedbacks\MMF_Vignette_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMMonoBehaviour.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMBackgroundColorAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMFeedbacksHelpers.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\MMDebugTouchDisplay.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMFeedbackTargetAcquisition.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMRadioSignal\MMRadioSignal.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Flicker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMUtilities\MMDebugController.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMCamera\MMCameraAspectRatio.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Shakers\MMLight2DShaker_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Graphic.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_SetActive.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMInspectorGroupAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\DemoBall.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMActivation\MMApplicationPlatformActivation.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Base\MMF_UIToolkitColorBase.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\Events\MMDebugMenuSliderEventListener.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Springs\MMSpringColorGradingTemperature.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMF_Player\MMF_FeedbackAttributes.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMFeedbacksInspectorColors.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMSoundManager\Events\MMSoundManagerSoundPlayEvent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMTween\MMAnimationCurveGenerator.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSceneLoading\Scripts\Managers\MMSceneLoadingAntiSpill.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Feedbacks\MMF_Exposure_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAI\AITransition.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\MMRadio\Legacy\MMFeedbackBase.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_DebugLog.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMCamera\MMOrbitalCamera.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMReadOnlyAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMActivation\MMActivationOnStart.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_FreezeFrame.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_RotationSpring.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Shakers\MMLensDistortionShaker_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_SquashAndStretch.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\MMFDependencyInstaller.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMF_Player\MMF_PlayerEnabler.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGUI\MMTwoSidedUI.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMObjectPool\MMObjectPooler.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Shakers\MMChromaticAberrationShaker_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMProcedural\MMTilemapGenerator\MMTilemapGenerator.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMCinemachine\MMCinemachineZone\MMCinemachineZone2D.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGyroscope\MMGyroscope.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\MMDebugMenuItems\MMDebugMenuItemText.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMF_Player\MMF_Feedback.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Springs\MMSpringColorAdjustmentsSaturation_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Springs\MMSpringVignetteIntensity_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\NiceVibrations\Feedbacks\MMF_NVClip.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringImageAlpha.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMFeedbacksEvents.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMDebugLogCommandArgumentCountAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Feedbacks\MMF_Bloom.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Pause.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_RotatePositionAround.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMPerformance\MMFPSUnlock.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Skybox.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_LoadScene.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMAudioSourceSequencer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMRotationShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMSoundManager\Events\MMSoundManagerTrackEvent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMScrollRectExtensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Springs\MMSpringVignetteColor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMListExtensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMRequiresConstantRepaintOnlyWhenPlayingAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Rigidbody.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMUtilities\MMScreenshot.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Springs\MMSpringWhiteBalanceTint_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMProperty\MMPropertyLink\MMPropertyLinkQuaternion.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_RectTransformAnchor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMVector2Extensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitRotate.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\Legacy\MMFeedbacks.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMSMPlaylist\MMSMPlaylist.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMFeedbacksCoroutine.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Feedbacks\MMF_ColorGrading.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Springs\MMSpringWhiteBalanceTemperature_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Shakers\MMDepthOfFieldShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMPropertyControllers\LightController.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\DemoButton.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Shakers\MMMotionBlurShaker_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMInspectorButtonAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAI\AIState.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringSpriteColor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Springs\MMSpringPaniniProjectionDistance_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringTextureScale.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Springs\MMSpringLensDistortionIntensity_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_Fade.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Springs\MMSpringMotionBlurIntensity_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAnimation\MMAnimatorMirror.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_SquashAndStretchSpring.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitBorderRadius.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMString.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSceneLoading\Scripts\Managers\MMSceneLoadingManager.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Authorizations\MMFeedbacksAuthorizations.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\Cinemachine\Feedbacks\MMF_CinemachineImpulseClear.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\Legacy\MMFeedback.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_Property.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGUI\MMCountdown.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Destroy.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Springs\MMSpringColorAdjustmentsContrast_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitScale.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMVector4Extensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\Feedbacks\MMF_TMPCountTo.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Core\MMSpringColor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMLayers.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMTween\MMTweenType.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_AudioFilterDistortion.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMParticles\MMDelayParticles.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\Feedbacks\MMF_TMPParagraphSpacing.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGUI\MMSceneName.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSceneLoading\Scripts\Helpers\MMSceneLoadingTextProgress.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Shakers\MMFilmGrainShaker_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMProperty\MMProperty.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\Events\MMDebugMenuButtonEvent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_ScaleShake.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMFeedbacksShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_FloatingText.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\Cinemachine\Feedbacks\MMF_CinemachineTransition.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMUI\MMProgressBar.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMProcedural\MMGridGenerators\MMGridGeneratorRandomWalkAvoider.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Springs\MMSpringMotionBlurIntensity_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMProcedural\MMGridGenerators\MMGridGeneratorPerlinNoiseGround.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_UnloadScene.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Feedbacks\MMF_ChromaticAberration_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\Cinemachine\Shakers\MMCinemachinePriorityListener.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Helpers\MMPostProcessingHelpers.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMParticles\MMAutoDestroyParticleSystem.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMProperty\MMPropertyLink\MMPropertyLinkFloat.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMColors.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Springs\MMSpringDepthOfFieldFocalLength_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Springs\MMSpringColorAdjustmentsHueShift_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_Blink.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMAudioFilterEchoShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSingletons\MMReferencedScriptableObject.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAchievements\Scripts\MMAchievementDisplayItem.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\Feedbacks\MMF_TMPColor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGUI\MMSliderStep.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Shakers\MMDepthOfFieldShaker_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMGhostCamera\MMGhostCamera.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_RectTransformSizeDelta.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\Cinemachine\Feedbacks\MMF_CinemachineImpulseSource.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMControls\MMTouchAxis.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAchievements\Scripts\MMAchievementList.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMMovement\MMSquashAndStretch.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMCoroutine.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMRectTransformExtensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_MMSoundManagerSoundFade.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMHiddenPropertiesAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMObjectPool\MMSimpleObjectPooler.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMReorderableList\Attributes\ReorderableAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMCameraOrthographicSizeShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMEmitterReceiver\MMEmmiterReceiver.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Shakers\MMChromaticAberrationShaker_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMMovement\MMPreventPassingThrough3D.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAI\AIBrain.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMNavMeshAreaMaskAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\Feedbacks\MMF_TMPOutlineWidth.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGUI\MMRadialProgressBar.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\VisualEffectGraph\Feedbacks\MMF_VisualEffectSetProperty.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitFontSize.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringCameraOrthographicSize.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Feedbacks\MMF_WhiteBalance_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMMovement\MMFaceDirection.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMShufflebag.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMMovement\MMPathMovement\MMPath.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Scale.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringTMPAlpha.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Demos\MMDebugMenu\MMDebugMenuTestClass.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_InstantiateObject.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Shakers\MMVignetteShaker_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSingletons\MMPersistentHumbleSingleton.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Core\Components\MMSpringFloatComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMPlaylist\MMPlaylist.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMActivation\MMTriggerFilter.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMSerializableDictionary.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMConditionAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMTween\MMFollowTarget.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Springs\MMSpringVignetteCenter.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Helpers\MMGlobalPostProcessingVolumeAutoBlend.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMCameraClippingPlanesShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Shakers\MMDepthOfFieldShaker_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\Cinemachine\Feedbacks\MMF_CinemachineImpulse.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Feedbacks\MMF_Vignette.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMProperty\MMPropertyLink\MMPropertyLinkColor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_PlayerControl.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAnimation\MMAnimationModifier.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMAudioSourceVolumeShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Springs\MMSpringColorAdjustmentsContrast_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMDebugLogCommandAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMAudioListener\MMAudioListener.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Image.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMAudioFilterLowPassShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Springs\MMSpringDepthOfFieldFocusDistance.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGUI\SelectionBase.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Feedbacks\MMF_ChromaticAberration_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMSerializedPropertyExtensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_HoldingPause.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_FloatController.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Springs\MMSpringBloomIntensity.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMActivation\MMToggleActive.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitClass.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringTMPTextColor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Feedbacks\MMF_Bloom_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMFeedbackTiming.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMAudioFilterReverbShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMInterval.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\Feedbacks\MMF_TMPSoftness.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Shakers\MMPaniniProjectionShaker_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\MMRadio\MMF_FeedbackBase.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAchievements\Scripts\MMAchievementEvent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\Feedbacks\MMF_TMPCountToLong.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Demos\MMObservable\MMObservableDemoObserver.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMCamera\MMAspectRatioSafeZones.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMUI\MMFader.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMProperty\MMPropertyLink\MMPropertyLinkVector3.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\Cinemachine\Shakers\MMCinemachineZoom.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitBackgroundColor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMProperty\MMPropertyPicker\MMPropertyEmitter.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Shakers\MMMotionBlurShaker_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMSprites\BezierLineRenderer\MMBezierLineRenderer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Core\MMSpringVector2.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMSoundManager\Events\MMSoundManagerSoundFadeEvent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMTilemaps\MMTilemapShadow.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGUI\MMProgressBarDemoAuto.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMProperty\MMPropertyLink\MMPropertyLinkBool.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMColorAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMRadioSignal\MMRadioSignalAudioAnalyzer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Shakers\MMPaniniProjectionShaker_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMAudioFilterHighPassShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMMovement\MMPreventPassingThrough.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMAudioSourceStereoPanShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\MMFloatingText\MMFloatingTextSpawner.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMSoundManager\Events\MMSoundManagerEvent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\NiceVibrations\Feedbacks\MMF_NVPreset.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMSoundManager\Events\MMSoundManagerSoundControlEvent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMPerformance\MMFPSCounter.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMHiddenAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_AudioSourceVolume.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_MaterialSetProperty.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Springs\MMSpringVignetteCenter_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMActivation\MMPeriodicExecution.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMObjectPool\MMMultipleObjectPooler.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Position.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMControls\MMTouchJoystick.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_GraphicCrossFade.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Core\MMSpringClampSettings.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_Sound.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Springs\MMSpringBloomIntensity_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMParticles\MMRendererSortingLayer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Text.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMProcedural\MMGridGenerators\MMGridGeneratorRandomWalk.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMInputSequenceRecorder.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSaveLoad\MMSaveLoadManager.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMAnimatorExtensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMInstantiation\MMRandomInstantiator.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMLoot\MMLoot.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMProperty\MMPropertyLink\MMPropertyLinkInt.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Shakers\MMWhiteBalanceShaker_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitSize.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\Feedbacks\MMF_TMPFontSize.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Springs\MMSpringWhiteBalanceTemperature_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMCurves\Plotter\MMPlotterAxis.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMProcedural\MMGridGenerators\MMGridGeneratorRandomWalkGround.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMSoundSequencer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_ImageTextureOffset.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMConsole.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMEvents\MMGameEventListener.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Sequencing\Scripts\MMFeedbacksSequencer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAchievements\Scripts\SerializedMMAchievementManager.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGUI\MMSelectionBase.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitTextColor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Springs\MMSpringVignetteCenter_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMCurves\Plotter\MMPlotterGenerator.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\Feedbacks\MMF_TMPAlpha.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_DestinationTransform.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMF_Player\MMF_PlayerDebugInput.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMActivation\MMInputExecution.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Feedbacks\MMF_ChromaticAberration.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Core\MMSpringVector3.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringRotation.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMRectExtensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_MMSoundManagerTrackControl.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMEnumConditionAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Shakers\MMLensDistortionShaker_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSingletons\MMSingleton.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringAudioSourceVolume.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Enable.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\Events\MMDebugMenuCheckboxEventListener.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMPlaylist\MMPlaylistRemote.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMParticles\MMChangeFogColor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringTMPLineSpacing.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Core\Components\MMSpringVector3Component.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Core\MMSpringDebug.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMFlash.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMVision\MMConeOfVision.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\MMChannels\MMChannel.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMVFX\Scripts\MMPanningTexture.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Collider.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringTMPCharacterSpacing.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMScaleShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Springs\MMSpringLensDistortionIntensity.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\Feedbacks\MMF_TMPWordSpacing.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\MMDebugMenuItems\MMDebugMenuItemButton.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMTween\MMSignal.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMVectorAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Shakers\MMAutoFocus.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMProperty\MMPropertyLink\MMPropertyLink.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMInstantiation\MMSpawnAround.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Core\Components\MMSpringColorComponent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMSprites\MMLineRendererCircle.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMArray.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMProperty\MMPropertyPicker\MMPropertyReceiver.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMActivation\MMTriggerAndCollisionFilter.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Looper.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\Cinemachine\Helpers\MMCinemachineHelpers.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMSprites\MMAutoOrderInLayer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSaveLoad\IMMPersistent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Springs\MMSpringVignetteIntensity_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitText.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMTimeManager\MMTimeManager.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Shakers\MMLensDistortionShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\Cinemachine\Shakers\MMCinemachineCameraShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Animation.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\MMFloatingText\MMFloatingText.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_RotationShake.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Feedbacks\MMF_ChannelMixer_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Springs\MMSpringBloomIntensity_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringSquashAndStretch.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Springs\MMSpringVignetteColor_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\Tabs\MMDebugMenuTabManager.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Feedbacks\MMF_FilmGrain_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMAudioFilterDistortionShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMControls\MMTouchControls.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Feedbacks\MMF_PaniniProjection_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMObservable\MMObservable.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMObjectPool\MMPoolableObject.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\MMDebugMenuItems\MMDebugMenuItemCheckbox.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitVisible.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_PositionSpring.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\Feedbacks\MMF_TMPLineSpacing.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\NiceVibrations\Feedbacks\Legacy\MMFeedbackNVSettings.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Feedbacks\MMF_SpringFloat.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMCinemachine\MMCinemachineZone\MMCinemachineZone.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\Commands\MMDebugMenuCommands.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\UIClasses\MMDebugMenuSpriteReplace.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Feedbacks\MMF_LensDistortion_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitBorderWidth.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMTime\MMCooldown.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMPropertyControllers\FloatController.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Flash.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_RectTransformOffset.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_PositionShake.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Core\MMSpringDefinition.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMUtilities\MMOpenURL.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_DebugBreak.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMExecutionOrderAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Helpers\MMURPHelpers.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAnimation\MMRagdoller.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_CameraShake.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Core\ObjectPool\MMMiniPoolableObject.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMSoundManager\Events\MMSoundManagerTrackFadeEvent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMCameraExtensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_PlayerChain.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitTranslate.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGizmos\MMGizmo.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Shakers\MMAutoFocus_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\MMFloatingText\MMFloatingTextMeshPro.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMVector3Extensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\MMDebugMenuItems\MMDebugMenuItemChoices.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Feedbacks\MMF_FilmGrain_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_TextFontSize.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMCameraFieldOfViewShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_ShaderGlobal.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Core\MMSpringFloat.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAI\AIDecision.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringAnimatorSpeed.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMCircularList.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_AudioFilterEcho.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMProcedural\MMGridGenerators\MMGridGenerator.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\Events\MMDebugMenuCheckboxEvent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGUI\MMGetFocusOnEnable.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringMMTimeScale.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitBorderColor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMMovement\MMPathMovement\MMPathMovement.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGUI\MMParallaxUI.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAnimation\MMOffsetAnimation.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMControls\MMControlsTestInputManager.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGUI\MMPSBToUIConverter.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSaveLoad\MMSaveLoadTester.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Feedbacks\MMF_DepthOfField_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Feedbacks\MMF_UIToolkitOpacity.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_CanvasGroupBlocksRaycasts.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Helpers\MMHDRPHelpers.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMActivation\MMTimedDestruction.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMGeometry.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMParticles\MMTrailRendererSortingLayer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Springs\MMSpringChromaticAberrationIntensity_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Feedbacks\MMF_WhiteBalance_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMTween\MMTween.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMProperty\MMPropertyLink\MMPropertyLinkString.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMInstantiation\MMSpawnAroundTester.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_MMSoundManagerSoundControl.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMTransformExtensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMCameraZoom.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\Cinemachine\Shakers\MMCinemachineFreeLookZoom.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMReadOnlyWhenPlayingAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMSpriteRendererShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Springs\MMSpringColorAdjustmentsHueShift_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMAudioEvents\MMAudioEvents.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Feedbacks\MMF_MotionBlur_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Feedbacks\MMF_ColorAdjustments_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Feedbacks\MMF_GlobalPPVolumeAutoBlend.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMCamera\MMCameraFog.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMDebugOnScreenConsole.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Feedbacks\MMF_SpringVector3.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_Fog.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMTilemaps\MMTilemap.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAchievements\Scripts\MMAchievementRules.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringShaderController.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\Cinemachine\Shakers\MMCinemachineClippingPlanesShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\Feedbacks\MMF_TMPCharacterSpacing.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMAudioSourcePitchShaker.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Feedbacks\MMF_PaniniProjection_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Feedbacks\MMF_Light2D_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Base\MMF_UIToolkitVector2Base.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMBlink.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_CanvasGroup.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMTilemaps\MMTilemapGridRenderer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMSoundManager\MMSoundManagerPlayOptions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMProcedural\MMTilemapGenerator\MMTilemapGeneratorLayer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMRadio\MMRadioSignal\MMRadioSignalGenerator.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMSoundManager\MMSoundManager.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Demos\MMObservable\MMObservableDemoSubject.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_BroadcastProxy.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_AudioMixerSnapshotTransition.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Shakers\MMCameraShakerRotation.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringRotationAround.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Feedbacks\MMF_ColorAdjustments_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\Feedbacks\MMF_TMPDilate.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\Feedbacks\MMF_TMPOutlineColor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_ImageAlpha.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMMovement\MMStayInPlace.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Feedbacks\MMF_Bloom_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMMovement.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMObjectPool\MMObjectBounds.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Rigidbody2D.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Shakers\MMColorAdjustmentsShaker_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAnimation\MMStopMotionAnimation.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMAchievements\Scripts\MMAchievementDisplayer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Springs\MMSpringLensDistortionIntensity_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Particles.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_TextColor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMExtensions\MMRendererExtensions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMSoundManager\MMSoundManagerAudioPool.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_ImageRaycastTarget.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MMControls\MMTouchFollowerJoystick.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Feedbacks\MMF_GlobalPPVolumeAutoBlend_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\Tabs\MMDebugMenuTabContents.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringPosition.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_AnimatorSpeed.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\Shakers\MMChannelMixerShaker_URP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_ImageMaterial.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSaveLoad\MMPersistent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\Feedbacks\MMF_TMPTextReveal.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_AudioSourcePitch.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Springs\MMSpringColorAdjustmentsSaturation_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_AudioSource.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMGUI\MMHealthBar.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMHelpers\MMFade.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\AudioAnalyzer\MMAudioAnalyzer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMDebugMenu\Scripts\Tabs\MMDebugMenuTab.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAttributes\MMRequiresConstantRepaintAttribute.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMProcedural\MMGridGenerators\MMGridGeneratorPerlinNoise.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMActivation\MMPlatformActivation.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMAudio\MMSoundManager\MMSoundManagerSettings.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMReorderableList\ReorderableArray.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMCinemachine\MMCinemachineZone\MMCinemachineZone3D.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\Springs\MMSpringChromaticAberrationIntensity.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_MMGameEvent.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_Feedbacks.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\Feedbacks\MMF_MMSoundManagerSound.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\DemoPackageTester.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\Springs\MMSpringWhiteBalanceTint_HDRP.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMProcedural\MMGridGenerators\MMGridGeneratorRandom.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSceneLoading\Scripts\Managers\MMAdditiveSceneLoadingManager.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Feedbacks\MMF_SpringColor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringScale.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Springs\Springs\MMSpringLightRange.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMSaveLoad\MMSaveLoadManagerMethodJsonEncrypted.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\Feedbacks\MMF_CameraZoom.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\Base\MMF_UIToolkitFloatBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\TextMeshPro\MoreMountains.Feedbacks.TextMeshPro.asmref" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\NiceVibrations\MoreMountains.Feedbacks.NiceVibrations.asmref" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMShaders\MMSkybox.shader" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMShaders\MMZTestAlways.shader" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\VisualEffectGraph\MoreMountains.Feedbacks.VisualEffectGraph.asmref" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMShaders\MMControlledEmission.shader" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MMReorderableList\reorderable-list-licence.txt" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMShaders\MMAdvancedToon.shader" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMShaders\MMStandardEmission.shader" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMShaders\MMToon.shader" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMShaders\MMWorldspace.shader" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMShaders\MMRipple.shader" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMShaders\MMStochastic.shader" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMShaders\MMVFX.shader" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMShaders\MMZTestAlwaysAdditive.shader" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMShaders\MMBoilingLine.shader" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Demos\MMTween\Fonts\Lato\OFL.txt" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMShaders\MMUINoAlpha.shader" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMVision\MMConeOfLight.shader" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\MoreMountains.Tools.Foundation.asmref" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\HDRP\MoreMountains.Feedbacks.HDRP.asmref" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacks\MoreMountains.Feedbacks.asmref" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\MoreMountains.Tools.asmdef" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\UIToolkit\MoreMountains.Feedbacks.UIToolkit.asmref" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Authorizations\MoreMountains.Feedbacks.Authorizations.asmref" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Demos\MoreMountains.Feedbacks.Demos.asmref" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\PostProcessing\MoreMountains.Feedbacks.PostProcessing.asmref" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\URP\MoreMountains.Feedbacks.URP.asmref" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMShaders\MM2DReflection.shader" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MMShaders\MMMatcap.shader" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\MoreMountains.Tools.Accessories.asmref" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\MMTools\MoreMountains.Feedbacks.MMTools.asmref" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\MMFeedbacksForThirdParty\Cinemachine\MoreMountains.Feedbacks.Cinemachine.asmref" />
+    <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Demos\MoreMountains.Tools.Demos.asmref" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.10.2\Lib\Editor\unityplastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.10.2\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.10.2\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.10.2\Lib\Editor\log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>D:\unity\2022.3.62f2c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
