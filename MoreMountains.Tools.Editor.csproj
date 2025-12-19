@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{04220DD4-A1D0-D99C-C720-23C5F5B1E997}</ProjectGuid>
+    <ProjectGuid>{5552869C-B9EA-1A9F-7319-D5A6DF4E03D1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>MoreMountains.Tools.Editor</AssemblyName>
@@ -60,48 +60,62 @@
     <Analyzer Include="D:\unity\2022.3.62f2c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMMaintenance\MMFindMissingScriptsRecursively.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMTween\MMTweenTypeDrawer.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAttributes\MMInformationDrawer.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAudio\MMSoundManager\MMSoundManagerEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMMaintenance\MMFindPrefabsByMono.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMGizmos\MMGizmoEditor.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Core\MMFeedbackStyling.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAttributes\MMMonoBehaviourFieldInfo.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMMaintenance\MMCleanupMissingScripts.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAttributes\MMBackgroundColorAttributeDrawer.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMVision\MMConeOfVision2DInspector.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMRadio\MMPropertyEmitterDrawer.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAttributes\MMMenuHelp.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMRadio\MMRadioSignalEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\Editor\MMAI\AIActionInspectorDrawer.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMVision\MMConeOfVisionInspector.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Springs\MMSpringVector3PropertyDrawer.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\Editor\MMAI\AIBrainEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMUtilities\MMDebugEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMParticles\MMTrailRendererSortingLayerEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAttributes\MMColorAttributeDrawer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Core\MMF_PlayerCopy.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAttributes\MMDropdownAttributeDrawer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMReorderableList\ReorderableDrawer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMRadio\MMRadioSignalGeneratorEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMParticles\MMRendererSortingLayerEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMMovement\MMPathMovement\MMPathMovementEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMActivation\MMTriggerAndCollisionEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Core\MMF_PlayerStyling.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMRadio\MMPropertyReceiverDrawer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMUtilities\MMTransformRandomizerEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMSaveLoad\MMSaveLoadMenu.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMMovement\MMAutoRotateEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMCurves\MMPlotterEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMObjectPool\ObjectBoundsEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMPropertyControllers\ShaderControllerEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Sequencing\MMInputSequenceRecorderEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMMaintenance\MMCleanEmptyFolders.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMMovement\MMPathMovement\MMPathEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAttributes\MMConditionAttributeDrawer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMUtilities\MMLayerPropertyDrawer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMMaintenance\MMFindMissingScriptsRecursively.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAudio\MMSoundManager\MMSoundManagerEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Core\MMFeedbackStyling.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMMaintenance\MMCleanupMissingScripts.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAttributes\MMBackgroundColorAttributeDrawer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMRadio\MMPropertyEmitterDrawer.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMRadio\MMRadioSignalEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMVision\MMConeOfVisionInspector.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Core\MMFeedbacksColors.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Core\MMF_FeedbackInspector.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Springs\MMSpringColorPropertyDrawer.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Springs\MMSpringFloatPropertyDrawer.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Core\MMF_FeedbackInspectorStyle.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMUtilities\ManagerIconEditor.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMUtilities\MMDebugEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMProcedural\MMTilemapGeneratorEditor.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMParticles\MMTrailRendererSortingLayerEditor.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAttributes\MMColorAttributeDrawer.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Core\MMF_PlayerCopy.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAttributes\MMDropdownAttributeDrawer.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMReorderableList\ReorderableDrawer.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAttributes\MMNavMeshAreaMaskAttributeDrawer.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Springs\MMSpringVector4PropertyDrawer.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\Editor\MMAchievements\MMAchievementListInspector.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Springs\MMSpringVector2PropertyDrawer.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMMaintenance\MMGroupSelection.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Sequencing\MMSequencerEditor.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMRadio\MMRadioSignalGeneratorEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMGUI\MMHealthBarEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAttributes\MMReadOnlyAttributeDrawer.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMParticles\MMRendererSortingLayerEditor.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMMovement\MMPathMovement\MMPathMovementEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Legacy\MMFeedbacksEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Core\MMF_PlayerConfiguration.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\FeedbackListOutputter\FeedbackListOutputer.cs" />
@@ -109,14 +123,8 @@
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Springs\MMSpringDebugPropertyDrawer.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Core\MMFeedbacksConfiguration.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAttributes\MMVectorAttributeDrawer.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMActivation\MMTriggerAndCollisionEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMCollisions\MMMeshToPolygonCollider2D.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Core\MMF_PlayerStyling.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\Editor\MMAI\AITransitionInspectorDrawer.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMRadio\MMPropertyReceiverDrawer.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMUtilities\MMTransformRandomizerEditor.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMSaveLoad\MMSaveLoadMenu.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMMovement\MMAutoRotateEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Foundation\Editor\MMAchievements\MMAchievementMenu.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMMaintenance\MMLockInspector.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMUtilities\MMScreenshotEditor.cs" />
@@ -125,18 +133,10 @@
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAudio\AudioAnalyzer\MMAudioAnalyzerEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMReorderableList\MMReorderableList.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAttributes\MMEnumConditionAttributeDrawer.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMCurves\MMPlotterEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Core\AttributeDrawers.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMObjectPool\ObjectBoundsEditor.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMPropertyControllers\ShaderControllerEditor.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Sequencing\MMInputSequenceRecorderEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMPropertyControllers\FloatControllerEditor.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMMaintenance\MMCleanEmptyFolders.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMFeedbacks\Editor\Shakers\MMWiggleEditor.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMMovement\MMPathMovement\MMPathEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMRadio\MMPropertyPickerDrawer.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMUtilities\MMLayerPropertyDrawer.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Core\Editor\MMAttributes\MMConditionAttributeDrawer.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMTools\Accessories\Editor\MMCamera\MMAspectRatioSafeZonesEditor.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -499,8 +499,8 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
@@ -1054,7 +1054,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="MoreMountains.Tools.csproj">
-      <Project>{005E3997-511C-26B6-FE72-03B07D447BAB}</Project>
+      <Project>{32BF564A-DF20-A00D-7B36-BADF4EE933DE}</Project>
       <Name>MoreMountains.Tools</Name>
     </ProjectReference>
   </ItemGroup>

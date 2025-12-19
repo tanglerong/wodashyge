@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{847FBB39-5A95-BAF6-6570-A063C326444A}</ProjectGuid>
+    <ProjectGuid>{A5D90EB0-5C48-ED61-06CE-B5EB04A7CE44}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>MoreMountains.CorgiEngine.Editor</AssemblyName>
@@ -61,20 +61,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CorgiEngine\Common\Editor\Agents\Weapons\WeaponEditor.cs" />
-    <Compile Include="Assets\CorgiEngine\Common\Editor\Items\PickableAbilityInspector.cs" />
-    <Compile Include="Assets\CorgiEngine\Common\Editor\Managers\LevelManagerEditor.cs" />
     <Compile Include="Assets\CorgiEngine\Common\Editor\Agents\CharacterAbilities\CharacterAbilityInspector.cs" />
     <Compile Include="Assets\CorgiEngine\Common\ScriptsCinemachine\Editor\Environment\TeleporterEditor.cs" />
-    <Compile Include="Assets\CorgiEngine\Common\Editor\Welcome\WelcomeWindow.cs" />
     <Compile Include="Assets\CorgiEngine\Common\Editor\Agents\Core\CharacterInspector.cs" />
     <Compile Include="Assets\CorgiEngine\Common\Editor\Welcome\DependencyInstaller.cs" />
-    <Compile Include="Assets\CorgiEngine\Common\Editor\Environment\MovingPlatformFreeInspector.cs" />
-    <Compile Include="Assets\CorgiEngine\Common\Editor\Menu\MoreMountainsMenu.cs" />
     <Compile Include="Assets\CorgiEngine\Common\Editor\Agents\CorgiController\CorgiControllerInspector.cs" />
     <Compile Include="Assets\CorgiEngine\Common\Editor\DefineSymbols\CorgiEngineDefineSymbols.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\ScriptsCinemachine\Editor\Environment\RoomEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Editor\Items\PickableAbilityInspector.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Editor\Managers\LevelManagerEditor.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Editor\Welcome\WelcomeWindow.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Editor\Environment\MovingPlatformFreeInspector.cs" />
+    <Compile Include="Assets\CorgiEngine\Common\Editor\Menu\MoreMountainsMenu.cs" />
     <Compile Include="Assets\CorgiEngine\Demos\Editor\RetroAdventure\RetroAdventureProgressManagerMenu.cs" />
     <Compile Include="Assets\CorgiEngine\Demos\Editor\LevelSelection\LevelMapPathElementEditor.cs" />
-    <Compile Include="Assets\CorgiEngine\Common\ScriptsCinemachine\Editor\Environment\RoomEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\CorgiEngine\Common\ScriptsCinemachine\Editor\MoreMountains.CorgiEngine.Cinemachine.Editor.asmref" />
@@ -434,8 +434,8 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
@@ -989,15 +989,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="MoreMountains.CorgiEngine.csproj">
-      <Project>{A54A7280-340F-6DC4-8EB1-143DB6B721E0}</Project>
+      <Project>{FADBECAA-B7EF-C9E4-FFB8-0003A7D52B58}</Project>
       <Name>MoreMountains.CorgiEngine</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.csproj">
-      <Project>{005E3997-511C-26B6-FE72-03B07D447BAB}</Project>
+      <Project>{32BF564A-DF20-A00D-7B36-BADF4EE933DE}</Project>
       <Name>MoreMountains.Tools</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.Editor.csproj">
-      <Project>{04220DD4-A1D0-D99C-C720-23C5F5B1E997}</Project>
+      <Project>{5552869C-B9EA-1A9F-7319-D5A6DF4E03D1}</Project>
       <Name>MoreMountains.Tools.Editor</Name>
     </ProjectReference>
   </ItemGroup>
