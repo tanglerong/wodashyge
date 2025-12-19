@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B77313C1-7839-8D67-EF47-FCE711B7FED6}</ProjectGuid>
+    <ProjectGuid>{52FD31A1-CBD9-3481-8FE7-57BEC0EF6F42}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>MoreMountains.Interface</AssemblyName>
@@ -62,11 +62,11 @@
   <ItemGroup>
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMRadioButton.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMCheckbox.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMScrollviewButton.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMPopup.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMCarousel.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMScrollviewButton.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMSpriteReplace.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMSwitch.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMCarousel.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMSpriteReplaceCycle.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -421,8 +421,8 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
@@ -952,7 +952,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="MoreMountains.Tools.csproj">
-      <Project>{005E3997-511C-26B6-FE72-03B07D447BAB}</Project>
+      <Project>{32BF564A-DF20-A00D-7B36-BADF4EE933DE}</Project>
       <Name>MoreMountains.Tools</Name>
     </ProjectReference>
   </ItemGroup>

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{80080B15-8453-BEFD-7316-A3B4773AC5D3}</ProjectGuid>
+    <ProjectGuid>{ED61BF2D-46AF-9746-21EC-914315B88B3D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>MoreMountains.InventoryEngine.Editor</AssemblyName>
@@ -64,8 +64,8 @@
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\GUI\InventoryDisplayEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\Core\InventoryEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\Core\PickableInventoryItemEditor.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\Core\InventoryItemEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\DefineSymbols\InventoryEngineDefineSymbols.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\Core\InventoryItemEditor.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\GUI\InventorySlotEditor.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -424,8 +424,8 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
@@ -979,11 +979,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="MoreMountains.InventoryEngine.csproj">
-      <Project>{BE40B06E-BC54-1D70-8460-C2213E49A4F2}</Project>
+      <Project>{5346D381-A094-2E27-3013-AA4AFE28A6D8}</Project>
       <Name>MoreMountains.InventoryEngine</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.csproj">
-      <Project>{005E3997-511C-26B6-FE72-03B07D447BAB}</Project>
+      <Project>{32BF564A-DF20-A00D-7B36-BADF4EE933DE}</Project>
       <Name>MoreMountains.Tools</Name>
     </ProjectReference>
   </ItemGroup>

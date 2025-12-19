@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BE40B06E-BC54-1D70-8460-C2213E49A4F2}</ProjectGuid>
+    <ProjectGuid>{5346D381-A094-2E27-3013-AA4AFE28A6D8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>MoreMountains.InventoryEngine</AssemblyName>
@@ -64,6 +64,17 @@
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventoryDisplay.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\ItemPicker.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Items\BaseItem.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\Items\HealthBonusItem.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\InventoryItemClasses.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\InventoryCharacterIdentifier.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventorySlot.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventoryCounterDisplay.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventoryDisplayGrid.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventoryHotbar.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\InventoryInputActions.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\InventoryEvents.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Tests\EventTester.cs" />
+    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\ChangeLevel.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\SerializedInventory.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\InventoryDemoStorageBox.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventoryDetails.cs" />
@@ -72,25 +83,14 @@
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventoryDisplayTitle.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\InventoryDemoGameManager.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\DemoCharacterInputManager.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\Items\HealthBonusItem.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\InventoryItemClasses.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\InventoryItem.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventorySelectionMarker.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\InventoryCharacterIdentifier.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventorySlot.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventoryCounterDisplay.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventoryDisplayGrid.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventoryHotbar.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\InventoryInputActions.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\InventoryDemoCharacter.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Tests\InventoryTester.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\Inventory.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\Items\BombItem.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\InventoryInputManager.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\InventoryEvents.cs" />
     <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\Items\WeaponItem.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Tests\EventTester.cs" />
-    <Compile Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\ChangeLevel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\CorgiEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\MoreMountains.InventoryEngine.Demos.asmref" />
@@ -445,8 +445,8 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
@@ -976,7 +976,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="MoreMountains.Tools.csproj">
-      <Project>{005E3997-511C-26B6-FE72-03B07D447BAB}</Project>
+      <Project>{32BF564A-DF20-A00D-7B36-BADF4EE933DE}</Project>
       <Name>MoreMountains.Tools</Name>
     </ProjectReference>
   </ItemGroup>
