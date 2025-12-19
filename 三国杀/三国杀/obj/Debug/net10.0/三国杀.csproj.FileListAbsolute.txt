@@ -1,0 +1,14 @@
+D:\新建文件夹\三国杀\三国杀\bin\Debug\net10.0\三国杀.exe
+D:\新建文件夹\三国杀\三国杀\bin\Debug\net10.0\三国杀.deps.json
+D:\新建文件夹\三国杀\三国杀\bin\Debug\net10.0\三国杀.runtimeconfig.json
+D:\新建文件夹\三国杀\三国杀\bin\Debug\net10.0\三国杀.dll
+D:\新建文件夹\三国杀\三国杀\bin\Debug\net10.0\三国杀.pdb
+D:\新建文件夹\三国杀\三国杀\obj\Debug\net10.0\三国杀.GeneratedMSBuildEditorConfig.editorconfig
+D:\新建文件夹\三国杀\三国杀\obj\Debug\net10.0\三国杀.AssemblyInfoInputs.cache
+D:\新建文件夹\三国杀\三国杀\obj\Debug\net10.0\三国杀.AssemblyInfo.cs
+D:\新建文件夹\三国杀\三国杀\obj\Debug\net10.0\三国杀.csproj.CoreCompileInputs.cache
+D:\新建文件夹\三国杀\三国杀\obj\Debug\net10.0\三国杀.dll
+D:\新建文件夹\三国杀\三国杀\obj\Debug\net10.0\refint\三国杀.dll
+D:\新建文件夹\三国杀\三国杀\obj\Debug\net10.0\三国杀.pdb
+D:\新建文件夹\三国杀\三国杀\obj\Debug\net10.0\三国杀.genruntimeconfig.cache
+D:\新建文件夹\三国杀\三国杀\obj\Debug\net10.0\ref\三国杀.dll
